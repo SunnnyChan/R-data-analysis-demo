@@ -7,4 +7,6 @@ github() {
    git $@
 }
 
+# cp /Users/sunny/WorkPlace/jupyter/R-*  .  
+
 github add . && github commit -m "sunnychan" && github push
